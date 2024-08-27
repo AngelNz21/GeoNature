@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>America - GeoNature</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+
+    <link rel="shortcut icon" href="img/global/logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="style/continent.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/continent.js" type="module"></script>
+    <script src="scripts/colorpicker.js" type="module"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.min.js"></script>
+  </head>
+
+  <body>
+    <img class="pattern" src="img/global/pattern.png" />
+
+    <header>
+      <img class="logo" src="img/global/logo.png" />
+      <nav class="navigation">
+        <a href="home.html">Home</a>
+        <a href="america.html" class="active">America</a>
+        <a href="europe.html">Europe</a>
+        <a href="africa.html">Africa</a>
+        <a href="asia.html">Asia</a>
+        <a href="oceania.html">Oceania</a>
+        <a href="antarctica.html">Antarctica</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="slide">
+        <div class="item" style="background-image: url(img/america/canada.jpg)">
+          <div class="content">
+            <div class="name">Canada</div>
+            <div class="desc">Niagara Falls</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/america/usa.jpg)">
+          <div class="content">
+            <div class="name">United States of America</div>
+            <div class="desc">Grand Canyon</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/america/mexico.jpg)">
+          <div class="content">
+            <div class="name">Mexico</div>
+            <div class="desc">Cenote Ik Kil</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/america/brazil.jpg)">
+          <div class="content">
+            <div class="name">Brazil</div>
+            <div class="desc">Amazon Rainforest</div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(img/america/argentina.jpg)"
+        >
+          <div class="content">
+            <div class="name">Argentina</div>
+            <div class="desc">Iguazu Falls</div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(img/america/colombia.jpg)"
+        >
+          <div class="content">
+            <div class="name">Colombia</div>
+            <div class="desc">Caño Cristales</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </body>
+</html>

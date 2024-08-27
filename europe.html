@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Europe - GeoNature</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+
+    <link rel="shortcut icon" href="img/global/logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="style/continent.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/continent.js" type="module"></script>
+    <script src="scripts/colorpicker.js" type="module"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.min.js"></script>
+  </head>
+
+  <body>
+    <img class="pattern" src="img/global/pattern.png" />
+
+    <header>
+      <img class="logo" src="img/global/logo.png" />
+      <nav class="navigation">
+        <a href="home.html">Home</a>
+        <a href="america.html">America</a>
+        <a href="europe.html" class="active">Europe</a>
+        <a href="africa.html">Africa</a>
+        <a href="asia.html">Asia</a>
+        <a href="oceania.html">Oceania</a>
+        <a href="antarctica.html">Antarctica</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="slide">
+        <div class="item" style="background-image: url(img/europe/germany.jpg)">
+          <div class="content">
+            <div class="name">Germany</div>
+            <div class="desc">Black Forest</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/europe/uk.jpg)">
+          <div class="content">
+            <div class="name">United Kingdom</div>
+            <div class="desc">Lake District</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/europe/france.jpg)">
+          <div class="content">
+            <div class="name">France</div>
+            <div class="desc">Verdon Gorge</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/europe/italy.jpg)">
+          <div class="content">
+            <div class="name">Italy</div>
+            <div class="desc">Amalfi Coast</div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(img/europe/spain.jpg)">
+          <div class="content">
+            <div class="name">Spain</div>
+            <div class="desc">Picos de Europa</div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(img/europe/netherlands.jpg)"
+        >
+          <div class="content">
+            <div class="name">Netherlands</div>
+            <div class="desc">Garden of Europe</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </body>
+</html>
